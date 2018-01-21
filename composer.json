@@ -1,0 +1,17 @@
+{
+  "name": "worldfactory/dofix",
+  "type": "library",
+  "description": "Simple object to store data in read only mode with many access methods",
+  "keywords": ["data", "read-only"],
+  "homepage": "https://github.com/WorldFactory/Dofix",
+  "license": "MIT",
+  "authors": [
+    {"name": "Raphaël Aurières", "email": "raphael.aurieres@gmail.com"}
+  ],
+  "require": {
+    "php": "~5.2"
+  },
+  "autoload": {
+    "psr-4": { "WorldFactory\\Dofix\\": "src" }
+  }
+}
