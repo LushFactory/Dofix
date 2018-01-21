@@ -1,11 +1,11 @@
 <?php
 
-namespace LushFactory\Dofix;
+namespace WorldFactory\Dofix;
 
 use arrayaccess;
 use Iterator;
 use Countable;
-use LushFactory\Dofix\Exceptions\WriteAccessException;
+use WorldFactory\Dofix\Exceptions\WriteAccessException;
 
 class Tree implements arrayaccess, Iterator, Countable
 {

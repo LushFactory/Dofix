@@ -1,6 +1,6 @@
 <?php
 
-namespace LushFactory\Dofix\Exceptions;
+namespace WorldFactory\Dofix\Exceptions;
 
 use RuntimeException;
 
