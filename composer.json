@@ -9,7 +9,7 @@
     {"name": "Raphaël Aurières", "email": "raphael.aurieres@gmail.com"}
   ],
   "require": {
-    "php": "~5.2"
+    "php": ">=5.2"
   },
   "autoload": {
     "psr-4": { "WorldFactory\\Dofix\\": "src" }
