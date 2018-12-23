@@ -265,7 +265,7 @@ class Tree implements arrayaccess, Iterator, Countable
 
     protected function getDofixArray (&$data)
     {
-        $class = '\novae\core\dofix\dofix';
+        $class = '\WorldFactory\Dofix';
         if (array_key_exists ('.meta', $data) and array_key_exists ('class', $data['.meta']))
         {
             $class = $data['.meta']['class'];
